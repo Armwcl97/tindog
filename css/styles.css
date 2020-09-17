@@ -1,0 +1,200 @@
+/* Body styling */
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat";
+}
+
+/* Title styling */
+#title {
+  background-color: #ff4c68;
+}
+
+.navbar{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 0 0  4.5rem 0;
+}
+
+.nav-item{
+    padding: 0 50px;
+}
+
+.nav-link{
+  font-size:1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu" , sans-serif;
+  font-size: 4.5rem;
+}
+
+.container-fluid{
+  padding: 3% 15% 3%;
+}
+
+.feature-boxes{
+  text-align: center;
+  padding: 1% 0;
+}
+
+.big-heading{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: 5% auto auto auto;
+  color: #fff;
+}
+
+.download-button{
+  margin: 3rem 1.5rem 1.5rem 0;
+}
+
+.Tittle-image{
+  width:60%;
+  right: 31%;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+ /* Here you use the CSS media query to design the mobile's website view (Tablet or phone) in the Tittle Section */
+@media (max-width:1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .Tittle-image{
+    position:static;
+    transform: rotate(0);
+
+  }
+}
+
+/* features body */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.Icon{
+  color: #ef8172;
+  padding-bottom: 20px;
+}
+
+.Icon:Hover{
+  color:#ff4c68;
+}
+
+.titulo-features{
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+.pFacildeusar{
+  color: #8f8f8f;
+}
+
+.pClientela{
+  color: #8f8f8f;
+}
+
+.pGarantizado{
+  color: #8f8f8f;
+}
+
+/* Testimonial Section */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  position: relative;
+}
+
+.testimonial-img{
+  border-radius: 100%;
+  width: 20%;
+  margin: 10px;
+}
+
+.testimonial-text{
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+/* press section */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+/* pricing section */
+
+#pricing{
+  padding: 7% 15%;
+  text-align: center;
+}
+.rowcards{
+  padding: 1% 1%;
+}
+
+.pricing-quality{
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+.pricing-amount{
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.pPP{
+    color: #8f8f8f;
+}
+
+.pDscrpcn{
+    color: #8f8f8f;
+}
+
+/* call to action(CTA) section */
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.ctah3{
+  font-size: 3rem;
+  margin: 0 20% 0 20%;
+}
+.botones-abajo{
+ margin: 0 auto 10px auto;
+}
+
+/* footer section */
+#footer{
+ background-color: #fff;
+ text-align: center;
+}
+.pfooter{
+  font-family: "Montserrat";
+  font-weight: bolder;
+  color: #8f8f8f;
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+  <!-- CSS stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,900&family=Ubuntu:ital,wght@0,500;1,300;1,400&display=swap" rel="stylesheet">
+  <!-- Icons de fontawesome -->
+  <script src="https://kit.fontawesome.com/9256905247.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap Jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">tindog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:tindog@tindog.com">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=#pricing>Precios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Descargar</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Conoce nuevos e interesantes animales cerca.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Descargar</button>
+          <button type="button" class="btn btn-outline-light btn-outline-secondary btn-lg download-button"><i class="fab fa-google-play"></i> Descargar</button>
+        </div>
+
+        <div class="col-lg-6">
+
+          <img class="Tittle-image" src="images/iphone6.png" alt="iphone-mockup">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="feature-boxes col-lg-4">
+        <i class="Icon fas fa-check-circle fa-4x"></i>
+        <h3 class="titulo-features">Facil de usar.</h3>
+        <p class="pFacildeusar">Tan facil de usar, que inclusive tu perro podria usarlo.</p>
+      </div>
+      <div class="feature-boxes col-lg-4">
+        <i class="Icon far fa-circle fa-4x"></i>
+        <h3 class="titulo-features">Clientela de Elite.</h3>
+        <p class="pClientela">Tenemos todos los perros, los mejores perros.</p>
+      </div>
+      <div class="feature-boxes col-lg-4">
+        <i class="Icon fas fa-heart fa-4x"></i>
+        <h3 class="titulo-features">Funcionamiento garantizado.</h3>
+        <p class="pGarantizado">Encuentra el amor de la vida de tu perro o te devolvemos el dinero.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="Testimonials-carousel" class="carousel slide" data-ride="carousel" data-interval="3500" data-pause="hover">
+      <ol class="carousel-indicators">
+        <li data-target="#Testimonials-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#Testimonials-carousel" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">Ya no tengo que estar oliendo a cualquier perra. He encontrado a la Corgi mas candela en Tindog. Guau.</h2>
+          <img class="testimonial-img" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Firulais, Caracas, La Lagunita</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Mi perro solia sentirse muy solo pero con la ayuda de Tindog, ellos se encontraron para siempre. Al menos eso creo.</h2>
+          <img class="testimonial-img" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Yajaira, Caracas, Caño amarillo</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#Testimonials-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#Testimonials-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-img" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-img" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-img" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-img" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 class="pricing-plan">Un plan para cada necesidad perruna.</h2>
+    <p class="pPP">Simples y accesibles precios para ti y tu perro.</p>
+
+    <div class="row rowcards">
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="pricing-quality">Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="pricing-amount">Free</h2>
+            <p class="pDscrpcn">5 Emparejamientos por dia.</p>
+            <p class="pDscrpcn">10 mensajes por dia.</p>
+            <p class="pDscrpcn">Uso de la aplicacion ilimitada.</p>
+            <button type="button" class="btn btn-lg btn-block btn-outline-secondary">Registrese gratis</button>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="pricing-quality">Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="pricing-amount">$49 / Me</h2>
+            <p class="pDscrpcn">Emparejamiento ilimitado.</p>
+            <p class="pDscrpcn">Mensajes ilimitado.</p>
+            <p class="pDscrpcn">Uso de la aplicacion ilimitada.</p>
+            <button type="button" class="btn btn-lg btn-block btn-secondary">Registrarse</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="pricing-quality">Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="pricing-amount">$99 / Me</h2>
+            <p class="pDscrpcn">Listado priorizado.</p>
+            <p class="pDscrpcn">Emparejamiento ilimitado.</p>
+            <p class="pDscrpcn">Mensajes ilimitados.</p>
+            <p class="pDscrpcn">Uso de la aplicacion ilimitada.</p>
+            <button type="button" class="btn btn-lg btn-block btn-secondary">Registrarse</button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="ctah3">Encuentra el verdadero amor de la vida de tu perro hoy.</h3>
+    <button type="button" class="botones-abajo btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Descargar</button>
+    <button type="button" class="botones-abajo btn btn-outline-light btn-outline-secondary btn-lg download-button"><i class="fab fa-google-play"></i> Descargar</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <div class="bottom-container">
+      <a class="btn" href="https://twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+      <a class="btn" href="https://facebook.com"><i class="fab fa-facebook-f fa-2x"></i></a>
+      <a class="btn" href="https://instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+      <a class="btn" href="mailto:tindog@tindog.com"><i class="far fa-envelope fa-2x"></i></a>
+      <p class="pfooter">© Copyright 2020 Armando Colmenares</p>
+    </div>
+
+  </footer>
+</body>
+
+</html>
